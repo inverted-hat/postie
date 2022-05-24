@@ -501,7 +501,7 @@
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
                                 "sceneId": "952f5f2b-f92d-47bd-ab2c-f4e76f0d597c",
-                                "x": 3,
+                                "x": 4,
                                 "y": 15,
                                 "direction": "right",
                                 "fadeSpeed": "2"
@@ -516,7 +516,8 @@
                 {
                     "command": "EVENT_PLAYER_BOUNCE",
                     "args": {
-                        "height": "low"
+                        "height": "low",
+                        "__collapse": true
                     },
                     "id": "8b5c4c73-95ce-4342-8196-9409fe362f0c"
                 },
@@ -655,11 +656,22 @@
                         ]
                     },
                     "id": "3e7a2415-f6b8-4f0e-bdc9-cc9cffad4fb6"
+                },
+                {
+                    "command": "EVENT_TEXT_SET_ANIMATION_SPEED",
+                    "args": {
+                        "speedIn": 0,
+                        "speedOut": 0,
+                        "speed": 0,
+                        "allowFastForward": true
+                    },
+                    "id": "51bd9481-427f-4062-ab11-c8f19c0f6bf9"
                 }
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         },
         {
             "name": "Scene 2",
@@ -1200,11 +1212,96 @@
                     "id": "3088b413-8e55-47a3-b320-fdbde3ee6899"
                 },
                 {
+                    "command": "EVENT_IF_VALUE",
+                    "args": {
+                        "variable": "0",
+                        "operator": "<",
+                        "comparator": 10,
+                        "__collapseElse": false,
+                        "__collapse": true
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_IF_VALUE",
+                                "args": {
+                                    "variable": "1",
+                                    "operator": "<",
+                                    "comparator": 10,
+                                    "__collapseElse": false
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "PT_EVENT_BACKGROUND_TEXT",
+                                            "args": {
+                                                "text": "0$01$:0$00$ ",
+                                                "x": 3,
+                                                "y": 13
+                                            },
+                                            "id": "9fd0f0a9-98e4-4b9d-aa87-95743da21ca6"
+                                        }
+                                    ],
+                                    "false": [
+                                        {
+                                            "command": "PT_EVENT_BACKGROUND_TEXT",
+                                            "args": {
+                                                "text": "$01$:0$00$ ",
+                                                "x": 3,
+                                                "y": 13
+                                            },
+                                            "id": "e33d40f1-679e-467a-b2bf-5929432929d1"
+                                        }
+                                    ]
+                                },
+                                "id": "43065e34-b527-4db0-8345-fa62a44c46fc"
+                            }
+                        ],
+                        "false": [
+                            {
+                                "command": "EVENT_IF_VALUE",
+                                "args": {
+                                    "variable": "1",
+                                    "operator": "<",
+                                    "comparator": 10,
+                                    "__collapseElse": false
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "PT_EVENT_BACKGROUND_TEXT",
+                                            "args": {
+                                                "text": "0$01$:$00$ ",
+                                                "x": 3,
+                                                "y": 13
+                                            },
+                                            "id": "fdf39436-2092-4146-9c3f-d9df288f7dac"
+                                        }
+                                    ],
+                                    "false": [
+                                        {
+                                            "command": "PT_EVENT_BACKGROUND_TEXT",
+                                            "args": {
+                                                "text": "$01$:$00$ ",
+                                                "x": 3,
+                                                "y": 13
+                                            },
+                                            "id": "91647c90-d7b7-41df-9ef1-1e23afdcdd71"
+                                        }
+                                    ]
+                                },
+                                "id": "7716bb68-6f51-4811-a0ed-b7dcc7e803e8"
+                            }
+                        ]
+                    },
+                    "id": "d079257d-e6eb-43cd-996f-044c1b6afb43"
+                },
+                {
                     "command": "EVENT_SET_TIMER_SCRIPT",
                     "args": {
                         "duration": 1,
                         "__scriptTabs": "end",
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "children": {
                         "script": [
@@ -1261,7 +1358,7 @@
                         ],
                         "override": false,
                         "__scriptTabs": "press",
-                        "__collapse": false,
+                        "__collapse": true,
                         "__comment": false
                     },
                     "children": {
@@ -1713,8 +1810,8 @@
             ],
             "autoFadeSpeed": 1,
             "id": "1b503042-5dff-4888-8def-9a7749345620",
-            "x": 662.8389749489627,
-            "y": 73.70446078849588,
+            "x": 626.6392811531306,
+            "y": 72.10741547397389,
             "actors": [
                 {
                     "name": "playerOnGround",
@@ -2066,7 +2163,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "2.png"
+            "filename": "2.png",
+            "tileColors": []
         },
         {
             "id": "6b00bcb3-3949-4bc2-9104-db464f6cbd97",
@@ -2075,7 +2173,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "3.png"
+            "filename": "3.png",
+            "tileColors": []
         },
         {
             "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
@@ -2785,6 +2884,10 @@
             "name": "minutes"
         },
         {
+            "id": "2",
+            "name": "Variable 2"
+        },
+        {
             "id": "10",
             "name": "wallJump"
         },
@@ -2795,10 +2898,6 @@
         {
             "id": "21",
             "name": "Variable 21"
-        },
-        {
-            "id": "2",
-            "name": "Variable 2"
         }
     ],
     "engineFieldValues": [
@@ -2848,9 +2947,9 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 2237,
-        "worldScrollY": 128,
-        "zoom": 362.86714723706245,
+        "worldScrollX": 1205,
+        "worldScrollY": 200,
+        "zoom": 302.2575482428074,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
@@ -2862,7 +2961,7 @@
             "default-bg-5",
             "default-bg-6",
             "dmg",
-            "default-ui"
+            "default-bg-1"
         ],
         "defaultSpritePaletteIds": [
             "default-sprite",
@@ -2883,7 +2982,7 @@
             142
         ],
         "showNavigator": true,
-        "defaultFontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
+        "defaultFontId": "8ed435d9-51cb-44e7-8b0d-ca85e63ca427",
         "defaultCharacterEncoding": "",
         "defaultPlayerSprites": {
             "TOPDOWN": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
