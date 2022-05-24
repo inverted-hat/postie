@@ -656,16 +656,6 @@
                         ]
                     },
                     "id": "3e7a2415-f6b8-4f0e-bdc9-cc9cffad4fb6"
-                },
-                {
-                    "command": "EVENT_TEXT_SET_ANIMATION_SPEED",
-                    "args": {
-                        "speedIn": 0,
-                        "speedOut": 0,
-                        "speed": 0,
-                        "allowFastForward": true
-                    },
-                    "id": "51bd9481-427f-4062-ab11-c8f19c0f6bf9"
                 }
             ],
             "playerHit1Script": [],
@@ -2228,6 +2218,62 @@
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": []
+        },
+        {
+            "name": "Splash",
+            "backgroundId": "01619f8c-5ac8-4487-a679-f4077b3f8af6",
+            "width": 20,
+            "height": 18,
+            "type": "LOGO",
+            "paletteIds": [
+                "default-sprite"
+            ],
+            "spritePaletteIds": [],
+            "collisions": [],
+            "autoFadeSpeed": 1,
+            "id": "f1287011-e438-4991-be5d-1074ec573c28",
+            "x": 97.37659356216047,
+            "y": 72.19517921650348,
+            "actors": [],
+            "triggers": [],
+            "script": [
+                {
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": [
+                            "b",
+                            "left",
+                            "up",
+                            "down",
+                            "right",
+                            "select",
+                            "start",
+                            "a"
+                        ],
+                        "override": false,
+                        "__scriptTabs": "press"
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_SWITCH_SCENE",
+                                "args": {
+                                    "sceneId": "9a7c69ee-f1ab-4407-8462-a375d231299b",
+                                    "x": 1,
+                                    "y": 12,
+                                    "direction": "right",
+                                    "fadeSpeed": "2"
+                                },
+                                "id": "2b65faa0-3c9d-48cd-ab06-151e310d74aa"
+                            }
+                        ]
+                    },
+                    "id": "57d68ad7-deee-4593-ac58-99dbce3a1819"
+                }
+            ],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": []
         }
     ],
     "backgrounds": [
@@ -2270,6 +2316,15 @@
             "imageHeight": 144,
             "filename": "placeholder.png",
             "tileColors": []
+        },
+        {
+            "id": "01619f8c-5ac8-4487-a679-f4077b3f8af6",
+            "name": "splash",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "splash.png"
         }
     ],
     "spriteSheets": [
@@ -3024,7 +3079,7 @@
         }
     ],
     "settings": {
-        "startSceneId": "9a7c69ee-f1ab-4407-8462-a375d231299b",
+        "startSceneId": "f1287011-e438-4991-be5d-1074ec573c28",
         "startX": 1,
         "startY": 12,
         "startMoveSpeed": 1,
@@ -3032,9 +3087,9 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1656,
-        "worldScrollY": 200,
-        "zoom": 302.2575482428074,
+        "worldScrollX": 102,
+        "worldScrollY": 6,
+        "zoom": 195.3093983232975,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
@@ -3075,7 +3130,7 @@
             "ADVENTURE": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
             "SHMUP": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
             "POINTNCLICK": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
-            "LOGO": "581d34d0-9591-4e6e-a609-1d94f203b0cd"
+            "LOGO": "54d89523-cd7d-4dd2-bded-e60048eb38d6"
         },
         "musicDriver": "huge",
         "cartType": "mbc5",
