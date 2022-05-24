@@ -5,7 +5,7 @@
     "_release": "1",
     "scenes": [
         {
-            "name": "Scene 1",
+            "name": "Screen 1",
             "backgroundId": "d35855a9-d821-46e3-b523-d8f4e7d05cc9",
             "width": 20,
             "height": 18,
@@ -376,8 +376,8 @@
             ],
             "autoFadeSpeed": 1,
             "id": "9a7c69ee-f1ab-4407-8462-a375d231299b",
-            "x": 288.7252176479708,
-            "y": 74.21024519447572,
+            "x": 268.32915206478,
+            "y": 73.48181428079033,
             "actors": [
                 {
                     "name": "playerOnGround",
@@ -664,7 +664,7 @@
             "autoFadeEventCollapse": true
         },
         {
-            "name": "Scene 2",
+            "name": "Screen 2",
             "backgroundId": "99fa498a-dac2-4b82-ad62-033644a60dc9",
             "width": 20,
             "height": 18,
@@ -1035,7 +1035,7 @@
             ],
             "autoFadeSpeed": 1,
             "id": "952f5f2b-f92d-47bd-ab2c-f4e76f0d597c",
-            "x": 455.5015313343532,
+            "x": 438.7476203195893,
             "y": 73.02648930229158,
             "actors": [
                 {
@@ -1067,6 +1067,51 @@
                     "id": "209dbad6-367f-417d-8202-1e7478e5e06b",
                     "x": 0,
                     "y": 0
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "aecec7bd-e8aa-4ecf-8c2a-6e9fec875235",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "collisionGroup": "2",
+                    "script": [
+                        {
+                            "command": "EVENT_INC_VALUE",
+                            "args": {
+                                "variable": "5"
+                            },
+                            "id": "d7b6fe1a-b8f5-4322-af81-20bd0247c518"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "$self$"
+                            },
+                            "id": "4508211e-3dd9-4268-aff2-fbf947e1f6fa"
+                        },
+                        {
+                            "command": "EVENT_MAX_SFX",
+                            "args": {
+                                "length": 8,
+                                "hex": "0x74, 0x20, 0xE9, 0x3F, 0x86",
+                                "channels": 1
+                            },
+                            "id": "132712aa-9ba8-4f6a-a610-64f8eff33e55"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "f5b90c94-b59d-42f8-90e8-3a31e0e79134",
+                    "x": 3,
+                    "y": 5
                 }
             ],
             "triggers": [
@@ -1429,7 +1474,7 @@
             "playerHit3Script": []
         },
         {
-            "name": "Scene 3",
+            "name": "Screen 3",
             "backgroundId": "6b00bcb3-3949-4bc2-9104-db464f6cbd97",
             "width": 20,
             "height": 18,
@@ -1800,8 +1845,8 @@
             ],
             "autoFadeSpeed": 1,
             "id": "1b503042-5dff-4888-8def-9a7749345620",
-            "x": 626.6392811531306,
-            "y": 72.10741547397389,
+            "x": 609.1569392246807,
+            "y": 74.29270821503005,
             "actors": [
                 {
                     "name": "playerOnGround",
@@ -2328,6 +2373,133 @@
         }
     ],
     "spriteSheets": [
+        {
+            "id": "aecec7bd-e8aa-4ecf-8c2a-6e9fec875235",
+            "name": "mail",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "mail.png",
+            "checksum": "04d6a2cc825dff71b84449c6efe0310b840162cc",
+            "width": 16,
+            "height": 16,
+            "states": [
+                {
+                    "id": "596e4511-80bb-4007-83ff-e4f5fab8fc76",
+                    "name": "",
+                    "animationType": "fixed",
+                    "flipLeft": false,
+                    "animations": [
+                        {
+                            "id": "901b8568-24a7-44a9-8fd1-4b74b92862dc",
+                            "frames": [
+                                {
+                                    "id": "df686895-10dc-4072-acf8-416c4feac46b",
+                                    "tiles": [
+                                        {
+                                            "id": "3e349038-276f-40c5-94db-bb5d16417745",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 0,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "4e31131e-62a5-416a-befd-e92f254d0afd",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 8,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "930fd262-3449-4f85-8ae9-beb96430df0f",
+                            "frames": [
+                                {
+                                    "id": "bda5ba4b-11ec-4da4-9a73-ee7dcf35fc3b",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "0fb1cb2f-dc4b-46c6-be66-13c492d3d1d1",
+                            "frames": [
+                                {
+                                    "id": "2e7d6346-a42c-4660-a155-c3eaac585549",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "cda316d4-dbbd-4217-9c5e-e441256347d7",
+                            "frames": [
+                                {
+                                    "id": "df71a6d2-b237-4193-bd1b-8f4aa1195133",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "056b4080-264e-45d3-806d-8499a2717814",
+                            "frames": [
+                                {
+                                    "id": "e3d3ddc0-dd00-49bb-b920-ce2ffbd498fa",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "3b8ad1d4-8b04-4033-91d7-1e3f86483684",
+                            "frames": [
+                                {
+                                    "id": "37942bbf-8216-4850-9428-ec96e13cb6fc",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "d31ed077-7c96-4545-9e0d-85de4ac9c857",
+                            "frames": [
+                                {
+                                    "id": "a67df8a6-e25f-4621-b50d-b25a2e5a05a6",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "5ff9fa9d-a09d-470c-8555-7d5ca7d606bb",
+                            "frames": [
+                                {
+                                    "id": "cdae6b58-dbb8-4159-9b9a-2c7da09d328e",
+                                    "tiles": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "numTiles": 1,
+            "canvasWidth": 16,
+            "canvasHeight": 16,
+            "boundsX": 3,
+            "boundsY": 0,
+            "boundsWidth": 10,
+            "boundsHeight": 8,
+            "animSpeed": 15
+        },
         {
             "id": "54d89523-cd7d-4dd2-bded-e60048eb38d6",
             "name": "player",
@@ -3038,6 +3210,10 @@
         {
             "id": "21",
             "name": "Variable 21"
+        },
+        {
+            "id": "5",
+            "name": "mailCollected"
         }
     ],
     "engineFieldValues": [
@@ -3087,9 +3263,9 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 102,
-        "worldScrollY": 6,
-        "zoom": 195.3093983232975,
+        "worldScrollX": 2067,
+        "worldScrollY": 355,
+        "zoom": 469.60099497437477,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
