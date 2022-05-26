@@ -4844,6 +4844,28 @@
                             "id": "bd8b7132-7494-489a-83f2-627bf3f3e3a1"
                         }
                     ]
+                },
+                {
+                    "name": "exit",
+                    "id": "89dbd538-53e7-4bbe-a13d-f841f27aa3c6",
+                    "x": 9,
+                    "y": 0,
+                    "width": 6,
+                    "height": 1,
+                    "script": [
+                        {
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "883cbc8b-3ab1-4757-82be-af1b62d3df94",
+                                "x": 1,
+                                "y": 14,
+                                "direction": "right",
+                                "fadeSpeed": "2"
+                            },
+                            "id": "94e30f6d-8c0a-4dd6-beb8-2ebc715b793f"
+                        }
+                    ],
+                    "leaveScript": []
                 }
             ],
             "script": [
@@ -6996,7 +7018,7 @@
         }
     ],
     "settings": {
-        "startSceneId": "883cbc8b-3ab1-4757-82be-af1b62d3df94",
+        "startSceneId": "f1287011-e438-4991-be5d-1074ec573c28",
         "startX": 1,
         "startY": 14,
         "startMoveSpeed": 1,
@@ -7004,8 +7026,8 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1301,
-        "worldScrollY": 481,
+        "worldScrollX": 1407,
+        "worldScrollY": 747,
         "zoom": 305.7548522092402,
         "customColorsEnabled": true,
         "sgbEnabled": false,
