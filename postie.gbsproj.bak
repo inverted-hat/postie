@@ -514,6 +514,14 @@
             ],
             "script": [
                 {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "f896d667-b3a8-4512-88d3-07c62ec515fc",
+                        "loop": true
+                    },
+                    "id": "10757507-f5d6-4d9d-a7e9-95361cf72503"
+                },
+                {
                     "command": "EVENT_PLAYER_BOUNCE",
                     "args": {
                         "height": "low",
@@ -583,7 +591,7 @@
                         ],
                         "override": false,
                         "__scriptTabs": "press",
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "children": {
                         "true": [
@@ -5910,7 +5918,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "4.png"
+            "filename": "4.png",
+            "tileColors": []
         },
         {
             "id": "aa7c24c1-91e6-4a88-8688-5f8595f40238",
@@ -5919,7 +5928,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "5.png"
+            "filename": "5.png",
+            "tileColors": []
         },
         {
             "id": "aae32dcc-ee59-42fa-ba89-d7e30ab2e66f",
@@ -5928,7 +5938,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "6.png"
+            "filename": "6.png",
+            "tileColors": []
         },
         {
             "id": "11b12000-20e9-4146-8786-5732fccb9abd",
@@ -5937,7 +5948,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "finish.png"
+            "filename": "finish.png",
+            "tileColors": []
         },
         {
             "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
@@ -5956,7 +5968,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "splash.png"
+            "filename": "splash.png",
+            "tileColors": []
         }
     ],
     "spriteSheets": [
@@ -6912,6 +6925,13 @@
     "customEvents": [],
     "music": [
         {
+            "id": "f896d667-b3a8-4512-88d3-07c62ec515fc",
+            "name": "song_template",
+            "filename": "song_template.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
             "name": "template",
             "filename": "template.mod",
@@ -6951,18 +6971,6 @@
             "name": "Variable 2"
         },
         {
-            "id": "10",
-            "name": "wallJump"
-        },
-        {
-            "id": "20",
-            "name": "playerOnGround"
-        },
-        {
-            "id": "21",
-            "name": "Variable 21"
-        },
-        {
             "id": "5",
             "name": "mailCollected"
         },
@@ -6973,6 +6981,18 @@
         {
             "id": "7",
             "name": "death"
+        },
+        {
+            "id": "10",
+            "name": "wallJump"
+        },
+        {
+            "id": "20",
+            "name": "playerOnGround"
+        },
+        {
+            "id": "21",
+            "name": "Variable 21"
         },
         {
             "id": "90d464a1-8bdf-4b92-b20a-269637711502__L0",
@@ -7026,8 +7046,8 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1407,
-        "worldScrollY": 747,
+        "worldScrollX": 454,
+        "worldScrollY": 0,
         "zoom": 305.7548522092402,
         "customColorsEnabled": true,
         "sgbEnabled": false,
