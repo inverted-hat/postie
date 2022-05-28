@@ -21848,7 +21848,7 @@
                     "animSpeed": 7,
                     "paletteId": "",
                     "isPinned": false,
-                    "collisionGroup": "3",
+                    "collisionGroup": "1",
                     "script": [
                         {
                             "command": "EVENT_MAX_SFX",
@@ -26275,23 +26275,9 @@
             "type": "uge"
         },
         {
-            "id": "41709ebd-f181-43db-81a9-25db7418b028",
-            "name": "postie_remix",
-            "filename": "postie_remix.uge",
-            "settings": {},
-            "type": "uge"
-        },
-        {
             "id": "9032cad4-d9ba-4dd9-b142-ad0289653518",
             "name": "postie_remix_x",
             "filename": "postie_remix_x.uge",
-            "settings": {},
-            "type": "uge"
-        },
-        {
-            "id": "2655c60b-eece-4a2e-a8ae-141ae68881d7",
-            "name": "postie_remix_y",
-            "filename": "postie_remix_y.uge",
             "settings": {},
             "type": "uge"
         }
@@ -26444,8 +26430,8 @@
     ],
     "settings": {
         "startSceneId": "f1287011-e438-4991-be5d-1074ec573c28",
-        "startX": 17,
-        "startY": 1,
+        "startX": 0,
+        "startY": 2,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "right",
@@ -26453,7 +26439,7 @@
         "showConnections": true,
         "worldScrollX": 0,
         "worldScrollY": 0,
-        "zoom": 184.1870467402041,
+        "zoom": 183.20868142694235,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
