@@ -24246,7 +24246,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "14.png"
+            "filename": "14.png",
+            "tileColors": []
         },
         {
             "id": "74345e2d-5842-4b33-9896-c95f00e9fc34",
@@ -24255,7 +24256,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "15.png"
+            "filename": "15.png",
+            "tileColors": []
         },
         {
             "id": "e86ceabd-5027-48e5-bedb-f47cbf4f3181",
@@ -24264,7 +24266,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "16.png"
+            "filename": "16.png",
+            "tileColors": []
         },
         {
             "id": "184158d0-011a-4d01-b714-ae22bf0d822a",
@@ -24273,7 +24276,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "17.png"
+            "filename": "17.png",
+            "tileColors": []
         },
         {
             "id": "1f85b0ae-6ff9-43d3-b18d-88db23b6c92b",
@@ -24282,7 +24286,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "18.png"
+            "filename": "18.png",
+            "tileColors": []
         },
         {
             "id": "a8780029-4f8f-4270-8f4c-1c4f54a002e7",
@@ -24291,7 +24296,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "19.png"
+            "filename": "19.png",
+            "tileColors": []
         },
         {
             "id": "99fa498a-dac2-4b82-ad62-033644a60dc9",
@@ -24310,7 +24316,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "20.png"
+            "filename": "20.png",
+            "tileColors": []
         },
         {
             "id": "6b00bcb3-3949-4bc2-9104-db464f6cbd97",
@@ -26334,6 +26341,10 @@
             "name": "cooldown"
         },
         {
+            "id": "12",
+            "name": "spikesHidden"
+        },
+        {
             "id": "20",
             "name": "playerOnGround"
         },
@@ -26376,10 +26387,6 @@
         {
             "id": "a9614803-d834-41b5-83ff-279d2d8f656d__L0",
             "name": "jumped"
-        },
-        {
-            "id": "12",
-            "name": "spikesHidden"
         },
         {
             "id": "f1287011-e438-4991-be5d-1074ec573c28__L0",
@@ -26429,17 +26436,17 @@
         }
     ],
     "settings": {
-        "startSceneId": "4bd52a40-2491-4e62-bf70-379a9243468f",
-        "startX": 4,
-        "startY": 15,
+        "startSceneId": "f1287011-e438-4991-be5d-1074ec573c28",
+        "startX": 1,
+        "startY": 2,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 701,
-        "worldScrollY": 1057,
-        "zoom": 183.20868142694235,
+        "worldScrollX": 204,
+        "worldScrollY": 0,
+        "zoom": 258.41158267110586,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
