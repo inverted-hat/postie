@@ -1275,16 +1275,48 @@
                             "id": "668ffba8-5841-4bda-bb78-a1114904ab41"
                         },
                         {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "set player velocity to 0",
+                                "__collapse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_x",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "1d6e0059-2922-4762-a58e-27c93e9cf6dc"
+                                    },
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_y",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "a95e8c41-b847-4380-b5c4-5fd3b8ecff53"
+                                    }
+                                ]
+                            },
+                            "id": "681613cc-3a26-4600-bb3f-f1fd2cd4f15e"
+                        },
+                        {
                             "command": "EVENT_ACTOR_SET_POSITION",
                             "args": {
                                 "actorId": "$self$",
                                 "x": {
                                     "type": "number",
-                                    "value": 3
+                                    "value": 4
                                 },
                                 "y": {
                                     "type": "number",
-                                    "value": 13
+                                    "value": 15
                                 }
                             },
                             "id": "9f6d6866-eea0-4915-b544-54dc97d0867b"
@@ -2172,7 +2204,7 @@
                                 "actorId": "$self$",
                                 "x": {
                                     "type": "number",
-                                    "value": 1
+                                    "value": 2
                                 },
                                 "y": {
                                     "type": "number",
@@ -2246,6 +2278,37 @@
                                 "time": 0.3
                             },
                             "id": "f4e4a42f-571e-4e1b-8793-82d84b2075ea"
+                        },
+                        {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "set player velocity to 0"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_x",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "d8167d4a-faed-4204-89b2-29b48d7a47c6"
+                                    },
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_y",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "6f17a9ad-c455-427f-b8eb-4c27f408355e"
+                                    }
+                                ]
+                            },
+                            "id": "79f69af3-646d-48e5-8038-e0f69843d3df"
                         },
                         {
                             "command": "EVENT_ACTOR_SET_POSITION",
@@ -4333,6 +4396,37 @@
                             "id": "25e87934-2609-43c6-8f15-96561e76b5a5"
                         },
                         {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "set player velocity to 0"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_x",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "b27459d6-4ea4-4b72-89cc-43ab6125a7f0"
+                                    },
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_y",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "4a0849d9-a9a0-4cee-a980-940ed19a7c0f"
+                                    }
+                                ]
+                            },
+                            "id": "a585f12a-a3f9-4fc8-b6b6-d4776e373fce"
+                        },
+                        {
                             "command": "EVENT_ACTOR_SET_POSITION",
                             "args": {
                                 "actorId": "$self$",
@@ -4414,6 +4508,37 @@
                             "id": "aa2ff6c0-cff1-4564-9326-fdd9edb060f2"
                         },
                         {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "set player velocity to 0"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_x",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "987ff706-b3af-499b-81e8-f0b1f5afebe8"
+                                    },
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_y",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "97c7783e-a390-4d9b-a9d1-1b09e0f12f58"
+                                    }
+                                ]
+                            },
+                            "id": "cd311d5a-6230-4ddd-b362-73da54159e5e"
+                        },
+                        {
                             "command": "EVENT_ACTOR_SET_POSITION",
                             "args": {
                                 "actorId": "$self$",
@@ -4486,6 +4611,37 @@
                                 "time": 0.3
                             },
                             "id": "947a8099-beb9-45d7-a10f-157308933a2b"
+                        },
+                        {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "set player velocity to 0"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_x",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "3994f17a-da0f-4cc3-9a86-3d0333abe9be"
+                                    },
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_y",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "45c8574b-79b7-4f27-b788-d59613d21a1b"
+                                    }
+                                ]
+                            },
+                            "id": "577c789f-bbf7-46e9-a587-1df356c11e3d"
                         },
                         {
                             "command": "EVENT_ACTOR_SET_POSITION",
@@ -4569,6 +4725,37 @@
                             "id": "7b03ea8c-473e-4d96-8966-c9bc1dd1d975"
                         },
                         {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "set player velocity to 0"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_x",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "ff7dfa25-c6ed-40da-b089-0ccbc17a5a73"
+                                    },
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_y",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "f66fa004-bd51-416e-9922-8b80fe897988"
+                                    }
+                                ]
+                            },
+                            "id": "58bd16b8-2cae-40b3-a661-cfb7f5bae9c9"
+                        },
+                        {
                             "command": "EVENT_ACTOR_SET_POSITION",
                             "args": {
                                 "actorId": "$self$",
@@ -4648,6 +4835,37 @@
                                 "time": 0.3
                             },
                             "id": "69424897-8c3b-4d76-a1d0-4d4badaee038"
+                        },
+                        {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "set player velocity to 0"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_x",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "38215634-1bd6-49cc-a461-a07db55bbed6"
+                                    },
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_y",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "25bc1823-d49d-4e35-9e91-1ce5e420e04b"
+                                    }
+                                ]
+                            },
+                            "id": "8fa92289-a88a-4b8b-886e-126ef25f60c7"
                         },
                         {
                             "command": "EVENT_ACTOR_SET_POSITION",
@@ -7457,6 +7675,37 @@
                             "id": "d22f87bf-2dbb-46d8-ba21-51dfbbd5fd8d"
                         },
                         {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "set player velocity to 0"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_x",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "a034864a-af7c-4809-99e3-b231f62e5999"
+                                    },
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_y",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "19e3ff0c-2f36-4593-8f2f-9b05d5a6143e"
+                                    }
+                                ]
+                            },
+                            "id": "d6bfbcc1-ce51-4c8b-bdbf-93945f80dd3c"
+                        },
+                        {
                             "command": "EVENT_ACTOR_SET_POSITION",
                             "args": {
                                 "actorId": "$self$",
@@ -7536,6 +7785,37 @@
                                 "time": 0.3
                             },
                             "id": "90c449dc-a12f-4a9c-a172-c4d659097c03"
+                        },
+                        {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "set player velocity to 0"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_x",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "cb5c6d4d-1e96-46b7-8666-502c3fc907fe"
+                                    },
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_y",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "78054107-dccb-4459-aea9-6e0d00360e5f"
+                                    }
+                                ]
+                            },
+                            "id": "245e7feb-d430-4913-b5f6-d3d416f805b8"
                         },
                         {
                             "command": "EVENT_ACTOR_SET_POSITION",
@@ -8456,6 +8736,37 @@
                             "id": "e2a4820c-ffd3-413e-a821-577c5a853109"
                         },
                         {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "set player velocity to 0"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_x",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "70acc59c-fdec-438a-9949-45d1b4723c43"
+                                    },
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_y",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "a897d9ad-8a3c-4789-acb4-71b54426127b"
+                                    }
+                                ]
+                            },
+                            "id": "e71f87ef-38d9-45e5-9787-a20a547e357a"
+                        },
+                        {
                             "command": "EVENT_ACTOR_SET_POSITION",
                             "args": {
                                 "actorId": "$self$",
@@ -9317,6 +9628,37 @@
                             "id": "96ecaf7e-ebe1-4584-9edc-4cbe7b6f83bd"
                         },
                         {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "set player velocity to 0"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_x",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "c157d4fa-73db-45f9-9be8-cd429726c27b"
+                                    },
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_y",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "aaeca030-d139-4d1f-bbce-af0238436894"
+                                    }
+                                ]
+                            },
+                            "id": "f28151f9-3cd5-4c8f-9bdd-5d42705e109e"
+                        },
+                        {
                             "command": "EVENT_ACTOR_SET_POSITION",
                             "args": {
                                 "actorId": "player",
@@ -9473,6 +9815,37 @@
                                 "time": 0.3
                             },
                             "id": "01100349-0496-4cea-914d-e154d1a7f7bc"
+                        },
+                        {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "set player velocity to 0"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_x",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "07377389-a22e-4bc1-a86a-c6467eb0c5b1"
+                                    },
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_y",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "178b98b2-d096-49d7-8e09-bee4aadb6285"
+                                    }
+                                ]
+                            },
+                            "id": "962a03d7-fa54-4084-8970-f40071c3a11a"
                         },
                         {
                             "command": "EVENT_ACTOR_SET_POSITION",
@@ -10543,6 +10916,37 @@
                             "id": "e8c180af-de00-4f81-b69e-d5eb646f3cde"
                         },
                         {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "set player velocity to 0"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_x",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "38c39d96-a2f4-4004-8d8f-5cf392d9246f"
+                                    },
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_y",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "e16f8ac3-9caa-4fe2-8061-78b3f317d359"
+                                    }
+                                ]
+                            },
+                            "id": "eb7e52d8-32bc-4644-a1bc-0a3cf64501cf"
+                        },
+                        {
                             "command": "EVENT_ACTOR_SET_POSITION",
                             "args": {
                                 "actorId": "player",
@@ -10699,6 +11103,37 @@
                                 "time": 0.3
                             },
                             "id": "7ed6beb9-85aa-46c2-9edb-1e78fabd2f04"
+                        },
+                        {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "set player velocity to 0"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_x",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "492fbbdf-f0a8-418b-a19b-0f7c65546475"
+                                    },
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_y",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "4d8417f2-a773-4bf1-bf82-5f58a2508132"
+                                    }
+                                ]
+                            },
+                            "id": "1a3dcabb-e35f-4a85-92eb-be164428106f"
                         },
                         {
                             "command": "EVENT_ACTOR_SET_POSITION",
@@ -10926,6 +11361,37 @@
                                 "time": 0.3
                             },
                             "id": "a9260c87-c332-4c2c-ad32-12f51eb14db9"
+                        },
+                        {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "set player velocity to 0"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_x",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "b6789fed-995d-4a6e-9a61-b60e1b6e1579"
+                                    },
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_y",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "061b43f5-8b9b-45b3-ad93-21885c8cf7f2"
+                                    }
+                                ]
+                            },
+                            "id": "037fa970-ea51-4412-80a8-ebdba4c15183"
                         },
                         {
                             "command": "EVENT_ACTOR_SET_POSITION",
@@ -11822,6 +12288,37 @@
                             "id": "9dcfe1bb-eec6-44ea-a5d7-fbc20be09a83"
                         },
                         {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "set player velocity to 0"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_x",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "a8afc4e3-6e7a-4207-822c-231a06b7cdd1"
+                                    },
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_y",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "9faf36d1-af16-4e7d-88bc-93c6525ff956"
+                                    }
+                                ]
+                            },
+                            "id": "6200c9c9-afc4-43af-b793-4d9c1300e50d"
+                        },
+                        {
                             "command": "EVENT_ACTOR_SET_POSITION",
                             "args": {
                                 "actorId": "player",
@@ -12004,6 +12501,37 @@
                             "id": "ac212481-82ea-4533-a860-603103f8060c"
                         },
                         {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "set player velocity to 0"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_x",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "1caa18e1-8cbb-466e-a1a8-9448e513dc9f"
+                                    },
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_y",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "b6511143-f613-4ccc-bfcd-4b15a13a1b21"
+                                    }
+                                ]
+                            },
+                            "id": "f2cce6fa-f4cd-4704-b740-ea843fa1601f"
+                        },
+                        {
                             "command": "EVENT_ACTOR_SET_POSITION",
                             "args": {
                                 "actorId": "$self$",
@@ -12083,6 +12611,37 @@
                                 "time": 0.3
                             },
                             "id": "65fecb92-d2e3-4f92-b412-ff9281be5c0f"
+                        },
+                        {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "set player velocity to 0"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_x",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "bf99dd0b-bb73-4a85-a2cd-7a81625ff85b"
+                                    },
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_y",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "955aa22b-f8b8-4b80-8ff9-059a9eb3fe8e"
+                                    }
+                                ]
+                            },
+                            "id": "2d1ec9ac-d4c9-4c20-b368-0dbf8ea529ef"
                         },
                         {
                             "command": "EVENT_ACTOR_SET_POSITION",
@@ -12166,6 +12725,37 @@
                             "id": "3ae9c434-b781-439b-9929-967c9ef6b12c"
                         },
                         {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "set player velocity to 0"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_x",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "02505a40-f6f9-4640-b0c9-d8e4ea5acf84"
+                                    },
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_y",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "12b7bfaf-5c3f-4834-a6a8-f18d0010e509"
+                                    }
+                                ]
+                            },
+                            "id": "7f400317-b14b-4202-b3e1-12da17387311"
+                        },
+                        {
                             "command": "EVENT_ACTOR_SET_POSITION",
                             "args": {
                                 "actorId": "$self$",
@@ -12245,6 +12835,37 @@
                                 "time": 0.3
                             },
                             "id": "29fbdb01-fc74-498b-b415-c5f872228a12"
+                        },
+                        {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "set player velocity to 0"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_x",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "7b814e5b-cef3-49a3-b6c4-fe07ac16ad41"
+                                    },
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_y",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "520fa4a9-07fc-4679-8992-221c0d51c849"
+                                    }
+                                ]
+                            },
+                            "id": "98f3826f-8a2b-467c-95eb-b805a3130d99"
                         },
                         {
                             "command": "EVENT_ACTOR_SET_POSITION",
@@ -12328,6 +12949,37 @@
                             "id": "797ba406-6d62-4997-ac1b-f2da68788105"
                         },
                         {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "set player velocity to 0"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_x",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "161d9cde-510e-4093-84f3-150d7407e8fd"
+                                    },
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_y",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "6a9805d7-979d-4b61-ae1b-7971b93aef71"
+                                    }
+                                ]
+                            },
+                            "id": "2a62b5fd-276c-4e31-ac97-edc7b37cdd8c"
+                        },
+                        {
                             "command": "EVENT_ACTOR_SET_POSITION",
                             "args": {
                                 "actorId": "$self$",
@@ -12407,6 +13059,37 @@
                                 "time": 0.3
                             },
                             "id": "4034d3df-1357-4837-9e22-fb675ae29f17"
+                        },
+                        {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "set player velocity to 0"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_x",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "38c007d1-2d62-430f-9132-be5e0e0c0493"
+                                    },
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_y",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "a0324966-2b5d-48ee-8bff-76d42ae223c6"
+                                    }
+                                ]
+                            },
+                            "id": "fb7f1fd0-e267-453a-90ea-85d215cf1287"
                         },
                         {
                             "command": "EVENT_ACTOR_SET_POSITION",
@@ -12490,6 +13173,37 @@
                             "id": "05d494ae-2ca8-4ac1-9a79-da8378fd2538"
                         },
                         {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "set player velocity to 0"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_x",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "5358f43e-30e6-4ae7-9428-97321a6957e6"
+                                    },
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_y",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "5adea3ba-065a-46ca-9a34-1e21e8d20527"
+                                    }
+                                ]
+                            },
+                            "id": "f26ac306-54bc-4901-88c7-841525f1edf9"
+                        },
+                        {
                             "command": "EVENT_ACTOR_SET_POSITION",
                             "args": {
                                 "actorId": "$self$",
@@ -12562,6 +13276,37 @@
                                 "spriteStateId": "dead"
                             },
                             "id": "f06ba918-853b-4da3-95fa-e6fab4a2a621"
+                        },
+                        {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "set player velocity to 0"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_x",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "2757d854-aa41-4e7b-8403-e1112c25f0e5"
+                                    },
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_y",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "84fb2918-209b-4545-9a19-6f4d45840b6b"
+                                    }
+                                ]
+                            },
+                            "id": "7bcdaa8d-46de-44d0-b29a-ffb96a0d97fb"
                         },
                         {
                             "command": "EVENT_WAIT",
@@ -13508,6 +14253,37 @@
                             "id": "7c9cc897-e2ae-4471-9c6b-4bb06ff6b570"
                         },
                         {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "set player velocity to 0"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_x",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "a97c7a5b-78da-41bc-8704-8048ee1c9384"
+                                    },
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_y",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "ca0743f0-f150-4c47-841f-3650e12403c9"
+                                    }
+                                ]
+                            },
+                            "id": "783a37f9-895d-4015-9a43-d4885b00e11a"
+                        },
+                        {
                             "command": "EVENT_ACTOR_SET_POSITION",
                             "args": {
                                 "actorId": "$self$",
@@ -13587,6 +14363,37 @@
                                 "time": 0.3
                             },
                             "id": "efa27f8f-261f-4893-a3db-64a19c061b56"
+                        },
+                        {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "set player velocity to 0"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_x",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "a05c782d-1c4c-43bd-9c5d-8c4b77c9e6ae"
+                                    },
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_y",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "c4107dd6-6df7-4c93-a640-5192dba3b3db"
+                                    }
+                                ]
+                            },
+                            "id": "a5698aef-281a-4937-95ab-b60405e476d4"
                         },
                         {
                             "command": "EVENT_ACTOR_SET_POSITION",
@@ -13696,6 +14503,37 @@
                             "id": "90fc2a18-23ea-4d11-844e-c0e6cfe1a701"
                         },
                         {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "set player velocity to 0"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_x",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "5e42e1c3-8d62-4325-a365-5be3a1311173"
+                                    },
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_y",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "64784f94-457e-4777-83c8-a296c6da7f5f"
+                                    }
+                                ]
+                            },
+                            "id": "03d1b3db-9b54-4c3d-96d8-9733b389e3d8"
+                        },
+                        {
                             "command": "EVENT_ACTOR_SET_POSITION",
                             "args": {
                                 "actorId": "$self$",
@@ -13777,6 +14615,37 @@
                             "id": "f1ddac1b-c61f-4489-ad4a-19ca5838a9e2"
                         },
                         {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "set player velocity to 0"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_x",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "b5f17679-c697-458f-8202-04c4173a8cd5"
+                                    },
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_y",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "6f231d2c-835d-40b5-8236-fd9730b665e2"
+                                    }
+                                ]
+                            },
+                            "id": "f1ca6cb6-aa26-4b68-b507-5f3976e4cf2c"
+                        },
+                        {
                             "command": "EVENT_ACTOR_SET_POSITION",
                             "args": {
                                 "actorId": "$self$",
@@ -13856,6 +14725,37 @@
                                 "time": 0.3
                             },
                             "id": "a67d4e2d-133a-403c-84e4-554e692f57b3"
+                        },
+                        {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "set player velocity to 0"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_x",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "1c60aec0-ba51-4bc3-8a7c-7d90db8f47fa"
+                                    },
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_y",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "8dd63317-ef60-4a4b-90a8-2d6c05248b13"
+                                    }
+                                ]
+                            },
+                            "id": "4598ca0c-53a0-40bb-af7f-ab7995931f92"
                         },
                         {
                             "command": "EVENT_ACTOR_SET_POSITION",
@@ -13991,6 +14891,37 @@
                             "id": "fc0f451b-7151-416d-8f7e-b7677ad2438b"
                         },
                         {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "set player velocity to 0"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_x",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "f4cf73d6-12bd-4e8a-91df-9e54a17a7ccd"
+                                    },
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_y",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "525710d0-98fd-4a28-8e4b-5228e6a915ff"
+                                    }
+                                ]
+                            },
+                            "id": "39296298-2b01-4d12-ad2c-2fd5dfd06b59"
+                        },
+                        {
                             "command": "EVENT_ACTOR_SET_POSITION",
                             "args": {
                                 "actorId": "$self$",
@@ -14070,6 +15001,37 @@
                                 "time": 0.3
                             },
                             "id": "628f3ecf-9a82-497d-8660-e1fa05c45752"
+                        },
+                        {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "set player velocity to 0"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_x",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "bddab4a9-0712-4c6b-ab91-9aaf898c4031"
+                                    },
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_y",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "54482c35-401f-4984-b328-0f004b3c1961"
+                                    }
+                                ]
+                            },
+                            "id": "a9124abe-d6fb-4af1-a277-3a8359bbf48e"
                         },
                         {
                             "command": "EVENT_ACTOR_SET_POSITION",
@@ -14177,6 +15139,37 @@
                                 "time": 0.3
                             },
                             "id": "72dae3c8-e7e9-48b7-8107-d81f2d841cef"
+                        },
+                        {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "set player velocity to 0"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_x",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "48351d41-46e1-4beb-93ca-56b17c0b435b"
+                                    },
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_y",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "c2113d35-5108-4f9e-a1f0-0c7dbe1e5475"
+                                    }
+                                ]
+                            },
+                            "id": "73daf6dd-6879-48bb-bdc7-9ac0b754003c"
                         },
                         {
                             "command": "EVENT_ACTOR_SET_POSITION",
@@ -15146,6 +16139,37 @@
                             "id": "30862d87-68e0-4078-b5fd-8a58f81289cc"
                         },
                         {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "set player velocity to 0"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_x",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "1f5cb958-9a5c-4897-96ad-be601e53249f"
+                                    },
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_y",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "b34590cb-c06d-4bc9-8de9-3d0518693cfc"
+                                    }
+                                ]
+                            },
+                            "id": "4474fca0-1bb7-45a7-822a-6758a89df8ab"
+                        },
+                        {
                             "command": "EVENT_ACTOR_SET_POSITION",
                             "args": {
                                 "actorId": "player",
@@ -15236,6 +16260,37 @@
                                 "time": 0.3
                             },
                             "id": "49fbdee6-dbf6-431d-af08-e20790f75734"
+                        },
+                        {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "set player velocity to 0"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_x",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "640091fd-6104-49cf-9858-ed5327bce359"
+                                    },
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_y",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "e2119dcf-de19-4166-8f2a-b512cd5a2f80"
+                                    }
+                                ]
+                            },
+                            "id": "2763a029-7b75-4a17-b05d-903f975f5bc7"
                         },
                         {
                             "command": "EVENT_ACTOR_SET_POSITION",
@@ -16339,6 +17394,37 @@
                             "id": "0a18e536-4616-4d37-bda7-444dfb8f8b34"
                         },
                         {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "set player velocity to 0"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_x",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "a8b388fb-28d1-40fa-bbff-6fe7ead79ebb"
+                                    },
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_y",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "cd3f2eca-900c-49b0-93b2-cf412ce1a08f"
+                                    }
+                                ]
+                            },
+                            "id": "5709ded3-1cde-4157-aed7-92a969641e67"
+                        },
+                        {
                             "command": "EVENT_ACTOR_SET_POSITION",
                             "args": {
                                 "actorId": "player",
@@ -16524,6 +17610,37 @@
                                 "time": 0.3
                             },
                             "id": "d4c1fea3-e10a-465c-85f9-b9f6b47a1c86"
+                        },
+                        {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "set player velocity to 0"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_x",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "84ad94dd-e4ef-4be9-babb-e47322a58f21"
+                                    },
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_y",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "0a1efe76-9140-4004-8519-0a61da37abb6"
+                                    }
+                                ]
+                            },
+                            "id": "4885b691-89da-4bde-90d6-766b425aa0ff"
                         },
                         {
                             "command": "EVENT_ACTOR_SET_POSITION",
@@ -16954,20 +18071,7 @@
             "spritePaletteIds": [],
             "collisions": [
                 0,
-                15,
                 0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                15,
-                0,
-                0,
-                0,
-                0,
-                0,
-                15,
                 0,
                 0,
                 0,
@@ -16975,27 +18079,6 @@
                 0,
                 0,
                 15,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                15,
-                0,
-                0,
-                0,
-                0,
-                0,
-                15,
-                15,
-                15,
-                15,
-                15,
-                0,
-                0,
-                15,
-                0,
                 0,
                 0,
                 0,
@@ -17011,10 +18094,44 @@
                 0,
                 0,
                 0,
-                15,
+                0,
+                0,
                 0,
                 0,
                 15,
+                0,
+                0,
+                0,
+                0,
+                0,
+                15,
+                15,
+                15,
+                15,
+                15,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                15,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                15,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0,
@@ -17481,6 +18598,37 @@
                             "id": "e91ea481-b0d0-493b-b2db-a8e788635896"
                         },
                         {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "set player velocity to 0"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_x",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "ab06b6a0-4ac9-4f11-b6f2-46a6e6a7587e"
+                                    },
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_y",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "5b133bf2-43d9-410c-a886-814685ded11a"
+                                    }
+                                ]
+                            },
+                            "id": "f8591de1-2bd0-4cb2-8c6b-e1312e0402bb"
+                        },
+                        {
                             "command": "EVENT_ACTOR_SET_POSITION",
                             "args": {
                                 "actorId": "player",
@@ -17571,6 +18719,37 @@
                                 "time": 0.3
                             },
                             "id": "17c0e16a-7a93-43b8-9876-d2d62e4f3288"
+                        },
+                        {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "set player velocity to 0"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_x",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "95170927-a7d9-47a5-9c63-80b39eb393dd"
+                                    },
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_y",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "ad2b4947-6c99-4b87-9e9f-755d6c22d644"
+                                    }
+                                ]
+                            },
+                            "id": "be33ee14-a2e8-4e24-b67f-4b11ff032bd3"
                         },
                         {
                             "command": "EVENT_ACTOR_SET_POSITION",
@@ -17749,9 +18928,9 @@
                     "name": "wallJump3",
                     "id": "ef83c94a-ef5b-48a3-a63b-ea7e51fa0b3d",
                     "x": 2,
-                    "y": 1,
+                    "y": 5,
                     "width": 1,
-                    "height": 10,
+                    "height": 6,
                     "script": [
                         {
                             "command": "EVENT_SET_TRUE",
@@ -17810,6 +18989,37 @@
                                 "time": 0.3
                             },
                             "id": "d0ff037c-268c-411d-9d11-d01f1daa7d97"
+                        },
+                        {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "set player velocity to 0"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_x",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "a62b9790-b60d-4e94-bbbf-9189e89d0109"
+                                    },
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_y",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "0426c77b-c3b5-404e-b2e3-598e8ffc5b3e"
+                                    }
+                                ]
+                            },
+                            "id": "8ca09f40-4b3b-4e88-b799-04c36984863b"
                         },
                         {
                             "command": "EVENT_ACTOR_SET_POSITION",
@@ -19294,9 +20504,41 @@
                         {
                             "command": "EVENT_WAIT",
                             "args": {
-                                "time": 0.3
+                                "time": 0.3,
+                                "__collapse": false
                             },
                             "id": "773cc1f1-4c6b-434c-884f-bc6387efacef"
+                        },
+                        {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "set player velocity to 0"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_x",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "ebe3957e-3b67-4755-8107-0b80b48c9564"
+                                    },
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_y",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "f060fe3d-406d-4f32-9b80-6ce1ee1a8fac"
+                                    }
+                                ]
+                            },
+                            "id": "a073274a-42c6-4ae6-b5c1-05606c7f9e9c"
                         },
                         {
                             "command": "PT_EVENT_PLAYER_FIELD_SET",
@@ -21440,6 +22682,37 @@
                             "id": "414c1d56-9597-4b4d-b5a2-3f18dd12d49c"
                         },
                         {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "set player velocity to 0"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_x",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "ae5fa73e-6ee9-4975-ae66-6297d42f111c"
+                                    },
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_y",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "bd3a9a55-6cc9-411d-bb75-96b84db04bd2"
+                                    }
+                                ]
+                            },
+                            "id": "2380076d-095a-43b6-b301-0717c989c873"
+                        },
+                        {
                             "command": "EVENT_ACTOR_SET_POSITION",
                             "args": {
                                 "actorId": "$self$",
@@ -22385,6 +23658,37 @@
                             "id": "026c3c5e-c1dc-4941-a06a-76dfb9c1e137"
                         },
                         {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "set player velocity to 0"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_x",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "8111c812-c1f1-4f57-a931-77f57bb958d5"
+                                    },
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_y",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "61dc6113-4ad8-46a5-8d03-57552b049daf"
+                                    }
+                                ]
+                            },
+                            "id": "b3a4a453-a7b3-4c89-b475-ba8cbf5aba94"
+                        },
+                        {
                             "command": "EVENT_ACTOR_SET_POSITION",
                             "args": {
                                 "actorId": "player",
@@ -22593,6 +23897,37 @@
                             "id": "a2e1ab7e-8188-4caf-b00e-199db3a5bf4d"
                         },
                         {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "set player velocity to 0"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_x",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "16094303-7e1a-4fe6-8316-9c880e93c342"
+                                    },
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_y",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "220c466c-8ec1-4fe3-995e-94c2b989b4ef"
+                                    }
+                                ]
+                            },
+                            "id": "1226824e-2b17-4eaa-9928-741e59459e13"
+                        },
+                        {
                             "command": "EVENT_ACTOR_SET_POSITION",
                             "args": {
                                 "actorId": "$self$",
@@ -22726,6 +24061,37 @@
                             "id": "5fe6a2cb-92ff-421a-9cb5-5795328add5f"
                         },
                         {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "set player velocity to 0"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_x",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "ade173d5-5e59-4db4-afae-b381d0094439"
+                                    },
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_y",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "ef358215-4050-45ce-8777-d67456b65311"
+                                    }
+                                ]
+                            },
+                            "id": "c0a50984-e763-44c6-b4e9-e1f17cfbc9fd"
+                        },
+                        {
                             "command": "EVENT_ACTOR_SET_POSITION",
                             "args": {
                                 "actorId": "$self$",
@@ -22805,6 +24171,37 @@
                                 "time": 0.3
                             },
                             "id": "491085ed-be65-469d-abce-a5a4d26738e6"
+                        },
+                        {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "set player velocity to 0"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_x",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "e383fba0-ae77-497c-8f03-ecd718c9e52a"
+                                    },
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_y",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "c70ff57e-a89a-48fe-992b-aa727319ce4e"
+                                    }
+                                ]
+                            },
+                            "id": "d7677ef1-bee0-48aa-a193-f972167d71cf"
                         },
                         {
                             "command": "EVENT_ACTOR_SET_POSITION",
@@ -22888,6 +24285,37 @@
                             "id": "20d57979-8cbc-4571-93f2-f794423cd248"
                         },
                         {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "set player velocity to 0"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_x",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "7fcf25df-9bc6-4ba1-9a0a-10c08fa77dd5"
+                                    },
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_y",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "455aa40f-342f-4956-af58-681d323150a1"
+                                    }
+                                ]
+                            },
+                            "id": "3e82ab85-0d5f-4eaf-b0b0-29bb81f06c2c"
+                        },
+                        {
                             "command": "EVENT_ACTOR_SET_POSITION",
                             "args": {
                                 "actorId": "$self$",
@@ -22967,6 +24395,37 @@
                                 "time": 0.3
                             },
                             "id": "4aa83eb1-4809-47a4-a95f-4c961b99db67"
+                        },
+                        {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "set player velocity to 0"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_x",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "d9bbfdb0-d3da-4e51-8568-214b0510cd12"
+                                    },
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_y",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "81c7ef5a-0c6b-405a-9b1a-55d3efec0a9b"
+                                    }
+                                ]
+                            },
+                            "id": "9358d36b-5bbc-4f69-9da0-001aec905936"
                         },
                         {
                             "command": "EVENT_ACTOR_SET_POSITION",
@@ -23050,6 +24509,37 @@
                             "id": "9d8aa8cd-7fd2-407e-9349-02deef79a828"
                         },
                         {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "set player velocity to 0"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_x",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "d80550e3-9884-4be4-9a5f-cc6e2ea7b4b6"
+                                    },
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_y",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "af4f66b4-40f3-42f6-9532-991bacf561b0"
+                                    }
+                                ]
+                            },
+                            "id": "ab2e1a44-485e-45a9-8c73-9d6097a87f0e"
+                        },
+                        {
                             "command": "EVENT_ACTOR_SET_POSITION",
                             "args": {
                                 "actorId": "$self$",
@@ -23129,6 +24619,37 @@
                                 "time": 0.3
                             },
                             "id": "3bb25863-3bd1-4eca-9e92-56a1e633161c"
+                        },
+                        {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "set player velocity to 0"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_x",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "24151055-8fdb-456b-91b2-afc96e98b45c"
+                                    },
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_y",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "39929149-2fe8-4940-a93b-0d874e92a66c"
+                                    }
+                                ]
+                            },
+                            "id": "484369ff-e9e6-401c-8d9c-1f233205cc94"
                         },
                         {
                             "command": "EVENT_ACTOR_SET_POSITION",
@@ -24222,6 +25743,37 @@
                             "id": "c0fd0718-b3cf-464e-8312-e05d461b5586"
                         },
                         {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "set player velocity to 0"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_x",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "25d0b819-12d3-40d1-b970-78ddfc3de5cc"
+                                    },
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_y",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "8d159a2a-0a85-4483-b14c-3c5f9a845806"
+                                    }
+                                ]
+                            },
+                            "id": "9e311101-9bbb-4ce7-9fa1-bf0467b51e61"
+                        },
+                        {
                             "command": "EVENT_ACTOR_SET_POSITION",
                             "args": {
                                 "actorId": "$self$",
@@ -24323,6 +25875,37 @@
                                 "time": 0.3
                             },
                             "id": "4b380fed-aa4c-4743-ac7e-b44b6afea154"
+                        },
+                        {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "set player velocity to 0"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_x",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "3131056f-502f-4ea3-8b96-5cd2e5a7a5f6"
+                                    },
+                                    {
+                                        "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                        "args": {
+                                            "field": "pl_vel_y",
+                                            "variable": "L0",
+                                            "value": 0,
+                                            "type": "number"
+                                        },
+                                        "id": "c9f91121-9712-4e57-9cb7-157d82d2fd2c"
+                                    }
+                                ]
+                            },
+                            "id": "2e3c41ad-ca4f-4dd1-a9d8-1034810eb372"
                         },
                         {
                             "command": "EVENT_ACTOR_SET_POSITION",
@@ -27126,9 +28709,9 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 0,
-        "worldScrollY": 0,
-        "zoom": 122.7804834395647,
+        "worldScrollX": 1046,
+        "worldScrollY": 978,
+        "zoom": 175.0980298370123,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
