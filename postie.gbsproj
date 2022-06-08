@@ -16189,7 +16189,7 @@
             "autoFadeSpeed": 1,
             "id": "c99079be-3126-4efb-83bb-c39f95761551",
             "x": 436.97399463787724,
-            "y": 594.4143433285806,
+            "y": 593.6427669897929,
             "actors": [
                 {
                     "name": "playerOnGround",
@@ -19197,7 +19197,8 @@
                                 "operator": "==",
                                 "comparator": 10,
                                 "__collapseElse": true,
-                                "__disableElse": true
+                                "__disableElse": true,
+                                "__collapse": true
                             },
                             "children": {
                                 "true": [
@@ -19296,6 +19297,26 @@
                                 "time": 0.3
                             },
                             "id": "773cc1f1-4c6b-434c-884f-bc6387efacef"
+                        },
+                        {
+                            "command": "PT_EVENT_PLAYER_FIELD_SET",
+                            "args": {
+                                "field": "pl_vel_x",
+                                "variable": "L0",
+                                "value": 0,
+                                "type": "number"
+                            },
+                            "id": "c4573773-5ad0-4dc1-bf9e-94ca8e826ed6"
+                        },
+                        {
+                            "command": "PT_EVENT_PLAYER_FIELD_SET",
+                            "args": {
+                                "field": "pl_vel_y",
+                                "variable": "L0",
+                                "value": 0,
+                                "type": "number"
+                            },
+                            "id": "0b5bcaf5-0ad7-4006-8d86-159f1a6114d9"
                         },
                         {
                             "command": "EVENT_ACTOR_SET_POSITION",
@@ -19685,7 +19706,7 @@
                         ],
                         "override": false,
                         "__scriptTabs": "press",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -19694,7 +19715,9 @@
                                 "args": {
                                     "variable": "11",
                                     "__collapseElse": true,
-                                    "__disableElse": true
+                                    "__disableElse": true,
+                                    "__collapse": true,
+                                    "__comment": true
                                 },
                                 "children": {
                                     "true": [
@@ -19756,6 +19779,16 @@
                                     "false": []
                                 },
                                 "id": "a2f049a7-2376-49ae-89b8-378fe930b732"
+                            },
+                            {
+                                "command": "PT_EVENT_PLAYER_FIELD_SET",
+                                "args": {
+                                    "field": "pl_vel_x",
+                                    "variable": "L0",
+                                    "value": -10000,
+                                    "type": "number"
+                                },
+                                "id": "ec7c3104-17f9-4af7-a804-b94dc5524fb0"
                             }
                         ]
                     },
@@ -26310,7 +26343,7 @@
                                     "tiles": [
                                         {
                                             "id": "6d14d8c0-3a84-428a-ab41-fa472833553c",
-                                            "x": 0,
+                                            "x": 2,
                                             "y": 0,
                                             "sliceX": 0,
                                             "sliceY": 0,
@@ -26323,7 +26356,7 @@
                                         },
                                         {
                                             "id": "eb82e156-8645-4ef3-a223-5b38119ee698",
-                                            "x": 8,
+                                            "x": 6,
                                             "y": 0,
                                             "sliceX": 8,
                                             "sliceY": 0,
@@ -26407,9 +26440,9 @@
             "numTiles": 1,
             "canvasWidth": 16,
             "canvasHeight": 16,
-            "boundsX": 0,
+            "boundsX": 2,
             "boundsY": 0,
-            "boundsWidth": 16,
+            "boundsWidth": 11,
             "boundsHeight": 5,
             "animSpeed": 15
         },
@@ -26436,34 +26469,8 @@
                                     "id": "f38771bd-70b1-485e-bfb1-b37d98c84c20",
                                     "tiles": [
                                         {
-                                            "id": "c0f9a74d-560d-4731-85f1-08ae617ab283",
-                                            "x": 0,
-                                            "y": 0,
-                                            "sliceX": 0,
-                                            "sliceY": 0,
-                                            "flipX": false,
-                                            "flipY": false,
-                                            "palette": 0,
-                                            "paletteIndex": 0,
-                                            "objPalette": "OBP0",
-                                            "priority": false
-                                        },
-                                        {
-                                            "id": "19e9df9b-faf6-4d8d-9db4-e8b200fc58c8",
-                                            "x": 8,
-                                            "y": 0,
-                                            "sliceX": 8,
-                                            "sliceY": 0,
-                                            "flipX": false,
-                                            "flipY": false,
-                                            "palette": 0,
-                                            "paletteIndex": 0,
-                                            "objPalette": "OBP0",
-                                            "priority": false
-                                        },
-                                        {
-                                            "id": "800ee52f-5b04-4831-a699-100fb0c5e92d",
-                                            "x": -8,
+                                            "id": "0978ec6f-647c-4131-98cd-831eaabd48c6",
+                                            "x": -6,
                                             "y": 0,
                                             "sliceX": 0,
                                             "sliceY": 0,
@@ -26475,8 +26482,8 @@
                                             "priority": false
                                         },
                                         {
-                                            "id": "385ae69e-3da1-4d84-990f-4303de9becc8",
-                                            "x": 8,
+                                            "id": "01d3b9fd-ed67-4774-a7f4-f9885607e815",
+                                            "x": -2,
                                             "y": 0,
                                             "sliceX": 0,
                                             "sliceY": 0,
@@ -26488,8 +26495,21 @@
                                             "priority": false
                                         },
                                         {
-                                            "id": "57c2c08d-a18d-43db-a218-2f4ad6aa5fda",
-                                            "x": 16,
+                                            "id": "cde87cad-4482-4c61-8306-00105fa2ac6e",
+                                            "x": 6,
+                                            "y": 0,
+                                            "sliceX": 0,
+                                            "sliceY": 0,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP0",
+                                            "paletteIndex": 0,
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "0518fa50-dcfe-42ec-96cd-bc8c63cbfdee",
+                                            "x": 14,
                                             "y": 0,
                                             "sliceX": 0,
                                             "sliceY": 0,
@@ -26573,10 +26593,10 @@
             "numTiles": 1,
             "canvasWidth": 32,
             "canvasHeight": 16,
-            "boundsX": -8,
+            "boundsX": -6,
             "boundsY": 0,
-            "boundsWidth": 32,
-            "boundsHeight": 6,
+            "boundsWidth": 27,
+            "boundsHeight": 5,
             "animSpeed": 15
         },
         {
@@ -26999,6 +27019,10 @@
             "name": "spikesHidden"
         },
         {
+            "id": "13",
+            "name": "Variable 13"
+        },
+        {
             "id": "20",
             "name": "playerOnGround"
         },
@@ -27045,10 +27069,6 @@
         {
             "id": "f1287011-e438-4991-be5d-1074ec573c28__L0",
             "name": "song"
-        },
-        {
-            "id": "13",
-            "name": "Variable 13"
         },
         {
             "id": "a246f5b6-d42e-44f1-bf57-ebb4ef9c1531__L0",
@@ -27099,16 +27119,16 @@
     ],
     "settings": {
         "startSceneId": "f1287011-e438-4991-be5d-1074ec573c28",
-        "startX": 1,
-        "startY": 2,
+        "startX": 0,
+        "startY": 4,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 692,
-        "worldScrollY": 603,
-        "zoom": 158.27473994344473,
+        "worldScrollX": 0,
+        "worldScrollY": 0,
+        "zoom": 122.7804834395647,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
