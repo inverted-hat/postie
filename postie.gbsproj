@@ -410,6 +410,13 @@
                                 "variable": "20"
                             },
                             "id": "1866fc72-fa40-4130-bd7c-605f7b424271"
+                        },
+                        {
+                            "command": "EVENT_WAIT",
+                            "args": {
+                                "time": 0.1
+                            },
+                            "id": "05c18eb0-ba20-4929-95ca-9125d873a2ea"
                         }
                     ],
                     "hit1Script": [],
@@ -1399,6 +1406,13 @@
                                 "variable": "20"
                             },
                             "id": "55303957-eb1d-4732-b43a-15d2b20be37b"
+                        },
+                        {
+                            "command": "EVENT_WAIT",
+                            "args": {
+                                "time": 0.1
+                            },
+                            "id": "67c388ef-191f-477c-bd25-014f32315a9d"
                         }
                     ],
                     "hit1Script": [],
@@ -2593,6 +2607,13 @@
                                 "variable": "20"
                             },
                             "id": "def3d37e-08e1-4927-b429-f9de32d94f2f"
+                        },
+                        {
+                            "command": "EVENT_WAIT",
+                            "args": {
+                                "time": 0.1
+                            },
+                            "id": "b56cdfe2-359a-48fb-afd1-35777740b145"
                         }
                     ],
                     "hit1Script": [],
@@ -3850,6 +3871,13 @@
                                 "variable": "20"
                             },
                             "id": "3f48d709-caf6-4447-943c-ab561c9339c5"
+                        },
+                        {
+                            "command": "EVENT_WAIT",
+                            "args": {
+                                "time": 0.1
+                            },
+                            "id": "6ec9e600-870b-4ad7-8835-099814b7e5fd"
                         }
                     ],
                     "hit1Script": [],
@@ -4826,6 +4854,13 @@
                                 "variable": "20"
                             },
                             "id": "fa35c51c-c2c0-4c82-aae1-0cc57dbf2eb9"
+                        },
+                        {
+                            "command": "EVENT_WAIT",
+                            "args": {
+                                "time": 0.1
+                            },
+                            "id": "dbeabc4e-ba0a-4775-a76c-fe5e4b3c8641"
                         }
                     ],
                     "hit1Script": [],
@@ -6349,6 +6384,13 @@
                                 "variable": "20"
                             },
                             "id": "7d93bb88-d49b-4b51-873e-cd3eaf37c509"
+                        },
+                        {
+                            "command": "EVENT_WAIT",
+                            "args": {
+                                "time": 0.1
+                            },
+                            "id": "0793dbac-a9c2-4fb5-a771-b277cb6d8114"
                         }
                     ],
                     "hit1Script": [],
@@ -7289,6 +7331,13 @@
                                 "variable": "20"
                             },
                             "id": "96a70fde-e623-4a1b-970a-656409fdb132"
+                        },
+                        {
+                            "command": "EVENT_WAIT",
+                            "args": {
+                                "time": 0.1
+                            },
+                            "id": "545f205b-e05d-444c-b707-eddb96adc879"
                         }
                     ],
                     "hit1Script": [],
@@ -8289,6 +8338,13 @@
                                 "variable": "20"
                             },
                             "id": "03b2d57b-3a43-48be-9c3a-de6c5e29c357"
+                        },
+                        {
+                            "command": "EVENT_WAIT",
+                            "args": {
+                                "time": 0.1
+                            },
+                            "id": "401ef2da-2da6-47fb-b748-562f601f14d3"
                         }
                     ],
                     "hit1Script": [],
@@ -9581,6 +9637,13 @@
                                 "variable": "20"
                             },
                             "id": "32daeb04-3bee-415b-af7e-db80b55cfecf"
+                        },
+                        {
+                            "command": "EVENT_WAIT",
+                            "args": {
+                                "time": 0.1
+                            },
+                            "id": "6a0ca541-7e0e-424d-b288-7864dd200308"
                         }
                     ],
                     "hit1Script": [],
@@ -10779,6 +10842,13 @@
                                 ]
                             },
                             "id": "1656d637-b4fc-4411-80b3-44179ae492e6"
+                        },
+                        {
+                            "command": "EVENT_WAIT",
+                            "args": {
+                                "time": 0.1
+                            },
+                            "id": "80b46a2a-17de-4521-926f-0bb566dbfcc7"
                         }
                     ],
                     "hit1Script": [],
@@ -10930,6 +11000,13 @@
                                 "useCollisions": false
                             },
                             "id": "0bcf51f5-43de-486d-9efc-bb12d24a5f9a"
+                        },
+                        {
+                            "command": "EVENT_WAIT",
+                            "args": {
+                                "time": 0.1
+                            },
+                            "id": "f58b9b3e-2d40-4dd0-a113-023a64af2e80"
                         }
                     ],
                     "hit1Script": [],
@@ -11119,6 +11196,13 @@
                                 "useCollisions": false
                             },
                             "id": "62a37a9c-8fdb-4f9d-8071-e1a5b0f6108c"
+                        },
+                        {
+                            "command": "EVENT_WAIT",
+                            "args": {
+                                "time": 0.1
+                            },
+                            "id": "4e7efd6f-af3c-4b88-a9a7-3ce036a8e91c"
                         }
                     ],
                     "hit1Script": [],
@@ -12310,6 +12394,13 @@
                                 ]
                             },
                             "id": "3fff5f4a-5507-47c7-ae2d-a75ac4febcb7"
+                        },
+                        {
+                            "command": "EVENT_WAIT",
+                            "args": {
+                                "time": 0.1
+                            },
+                            "id": "f4209e8f-706f-4287-b40e-64912a5e69d9"
                         }
                     ],
                     "hit1Script": [],
@@ -12461,6 +12552,13 @@
                                 "useCollisions": false
                             },
                             "id": "3cec1443-469c-41dd-9982-04732f0a6b19"
+                        },
+                        {
+                            "command": "EVENT_WAIT",
+                            "args": {
+                                "time": 0.1
+                            },
+                            "id": "b2bcf4e0-a4cb-462f-b6e9-72ebf1ccfe7c"
                         }
                     ],
                     "hit1Script": [],
@@ -12650,6 +12748,13 @@
                                 "useCollisions": false
                             },
                             "id": "e85c7368-fb42-4c1d-ac12-71ce45dc7692"
+                        },
+                        {
+                            "command": "EVENT_WAIT",
+                            "args": {
+                                "time": 0.1
+                            },
+                            "id": "16d8ac46-0b25-4cfa-974d-d590cd2729ca"
                         }
                     ],
                     "hit1Script": [],
@@ -13998,6 +14103,13 @@
                                 ]
                             },
                             "id": "53a62a5a-6e5a-4c3e-a3f5-2efbe8ecd6f3"
+                        },
+                        {
+                            "command": "EVENT_WAIT",
+                            "args": {
+                                "time": 0.1
+                            },
+                            "id": "7be9c47a-ae7a-4008-b973-29093e96b8d5"
                         }
                     ],
                     "hit1Script": [],
@@ -14149,6 +14261,13 @@
                                 "useCollisions": false
                             },
                             "id": "81b501ea-f668-4606-a6d0-938e283a5dab"
+                        },
+                        {
+                            "command": "EVENT_WAIT",
+                            "args": {
+                                "time": 0.1
+                            },
+                            "id": "0520ca59-f256-469e-a196-5e99b16c36bc"
                         }
                     ],
                     "hit1Script": [],
@@ -15993,6 +16112,13 @@
                                 "variable": "20"
                             },
                             "id": "1e6042dd-a94b-45c5-854f-917fb1934ecf"
+                        },
+                        {
+                            "command": "EVENT_WAIT",
+                            "args": {
+                                "time": 0.1
+                            },
+                            "id": "44933166-d3bd-4605-92bd-d7d834f94d21"
                         }
                     ],
                     "hit1Script": [],
@@ -17994,6 +18120,13 @@
                                 "variable": "20"
                             },
                             "id": "1248c9cf-5f99-41a3-8426-e50c020b4a84"
+                        },
+                        {
+                            "command": "EVENT_WAIT",
+                            "args": {
+                                "time": 0.1
+                            },
+                            "id": "6dd15e3f-330c-4498-a2f0-8e2d96af00c8"
                         }
                     ],
                     "hit1Script": [],
@@ -19356,6 +19489,13 @@
                                 "variable": "20"
                             },
                             "id": "28c4cd5d-932d-44e0-870c-2d4cfd56c28a"
+                        },
+                        {
+                            "command": "EVENT_WAIT",
+                            "args": {
+                                "time": 0.1
+                            },
+                            "id": "e7cd9e41-0e57-47b9-9555-2f17bc001710"
                         }
                     ],
                     "hit1Script": [],
@@ -20862,6 +21002,13 @@
                                 ]
                             },
                             "id": "fa9ef38c-43f4-465e-9ba6-becb79c5b6b5"
+                        },
+                        {
+                            "command": "EVENT_WAIT",
+                            "args": {
+                                "time": 0.1
+                            },
+                            "id": "b438343a-e7c5-4418-9948-7018ddfc22c3"
                         }
                     ],
                     "hit1Script": [],
@@ -21254,6 +21401,13 @@
                                 ]
                             },
                             "id": "4aaa0104-84ec-4fb8-8111-a974e268897b"
+                        },
+                        {
+                            "command": "EVENT_WAIT",
+                            "args": {
+                                "time": 0.1
+                            },
+                            "id": "a611f350-e8ae-4555-959d-0b91c7958034"
                         }
                     ],
                     "hit1Script": [],
@@ -22374,6 +22528,13 @@
                                 "variable": "20"
                             },
                             "id": "db812554-47b7-459e-8a4b-d1643ff567c2"
+                        },
+                        {
+                            "command": "EVENT_WAIT",
+                            "args": {
+                                "time": 0.1
+                            },
+                            "id": "3c7527a1-8b27-4093-a379-32cf03533f90"
                         }
                     ],
                     "hit1Script": [],
@@ -24547,6 +24708,13 @@
                                 "variable": "20"
                             },
                             "id": "3e0e4de0-b03e-4c3d-9fc3-3a73ff0f4084"
+                        },
+                        {
+                            "command": "EVENT_WAIT",
+                            "args": {
+                                "time": 0.1
+                            },
+                            "id": "b12eaa6c-853b-4963-886d-57feeeabae12"
                         }
                     ],
                     "hit1Script": [],
@@ -25671,6 +25839,13 @@
                                 "variable": "20"
                             },
                             "id": "45ceecf2-81ed-4424-9ec6-d2dd54126758"
+                        },
+                        {
+                            "command": "EVENT_WAIT",
+                            "args": {
+                                "time": 0.1
+                            },
+                            "id": "c726290d-6216-48a8-9d80-90c371b043c5"
                         }
                     ],
                     "hit1Script": [],
@@ -27028,6 +27203,13 @@
                                 ]
                             },
                             "id": "8ca2186e-e9f7-4594-accf-62caeb08f1f9"
+                        },
+                        {
+                            "command": "EVENT_WAIT",
+                            "args": {
+                                "time": 0.1
+                            },
+                            "id": "4f77dfc8-d138-47a7-9977-2984b511548e"
                         }
                     ],
                     "hit1Script": [],
@@ -27256,6 +27438,13 @@
                                 "useCollisions": false
                             },
                             "id": "d07046f8-9f34-4fac-8203-4e998fa90197"
+                        },
+                        {
+                            "command": "EVENT_WAIT",
+                            "args": {
+                                "time": 0.1
+                            },
+                            "id": "3fc2752b-ff54-4444-a135-a71e05d53592"
                         }
                     ],
                     "hit1Script": [],
@@ -29108,6 +29297,13 @@
                                 "variable": "20"
                             },
                             "id": "b6b3eec2-d418-4083-aeb7-a7196527447a"
+                        },
+                        {
+                            "command": "EVENT_WAIT",
+                            "args": {
+                                "time": 0.1
+                            },
+                            "id": "10998aca-efe8-4e5f-a2a0-77145c01c287"
                         }
                     ],
                     "hit1Script": [],

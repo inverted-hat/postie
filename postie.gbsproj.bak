@@ -402,6 +402,21 @@
                                 "$variable[2]$": "13"
                             },
                             "id": "3266ffed-eae1-4f93-a19a-18a4b3f32b44"
+                        },
+                        {
+                            "command": "PT_EVENT_PLAYER_FIELD_STORE",
+                            "args": {
+                                "field": "grounded",
+                                "variable": "20"
+                            },
+                            "id": "1866fc72-fa40-4130-bd7c-605f7b424271"
+                        },
+                        {
+                            "command": "EVENT_WAIT",
+                            "args": {
+                                "time": 0.1
+                            },
+                            "id": "05c18eb0-ba20-4929-95ca-9125d873a2ea"
                         }
                     ],
                     "hit1Script": [],
@@ -1375,82 +1390,6 @@
                     "startScript": [],
                     "updateScript": [
                         {
-                            "command": "PT_EVENT_PLAYER_FIELD_STORE",
-                            "args": {
-                                "field": "grounded",
-                                "variable": "20",
-                                "__collapse": true,
-                                "__comment": true
-                            },
-                            "id": "9aa3b024-7009-4bda-8790-251a8a54e13c"
-                        },
-                        {
-                            "command": "EVENT_IF_TRUE",
-                            "args": {
-                                "variable": "10",
-                                "__collapseElse": true,
-                                "__disableElse": true,
-                                "__collapse": true,
-                                "__comment": true
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "command": "EVENT_IF_INPUT",
-                                        "args": {
-                                            "input": [
-                                                "left",
-                                                "right"
-                                            ],
-                                            "__collapseElse": false
-                                        },
-                                        "children": {
-                                            "true": [
-                                                {
-                                                    "command": "EVENT_ENGINE_FIELD_SET",
-                                                    "args": {
-                                                        "engineFieldKey": "plat_max_fall_vel",
-                                                        "value": {
-                                                            "value": 1000
-                                                        }
-                                                    },
-                                                    "id": "cce9851b-e782-4941-a7ad-466be8a0fe45"
-                                                },
-                                                {
-                                                    "command": "EVENT_ACTOR_SET_STATE",
-                                                    "args": {
-                                                        "actorId": "player",
-                                                        "spriteStateId": "wallJump"
-                                                    },
-                                                    "id": "8c02a7bc-85dd-4c2c-976f-e4e1415ede4a"
-                                                }
-                                            ],
-                                            "false": [
-                                                {
-                                                    "command": "EVENT_ENGINE_FIELD_SET",
-                                                    "args": {
-                                                        "engineFieldKey": "plat_max_fall_vel"
-                                                    },
-                                                    "id": "c93cb5bf-460a-4159-8116-a036a9f5f8dc"
-                                                },
-                                                {
-                                                    "command": "EVENT_ACTOR_SET_STATE",
-                                                    "args": {
-                                                        "actorId": "player",
-                                                        "spriteStateId": ""
-                                                    },
-                                                    "id": "7d259de4-3918-4061-bb52-1423b0150f9b"
-                                                }
-                                            ]
-                                        },
-                                        "id": "400639c7-28b3-4b37-94f2-461b204d56e8"
-                                    }
-                                ],
-                                "false": []
-                            },
-                            "id": "e2ecfa1d-0c56-4817-a71c-ff6b2fc938bf"
-                        },
-                        {
                             "command": "EVENT_CALL_CUSTOM_EVENT",
                             "args": {
                                 "customEventId": "f1272a59-ee89-4f09-ba7a-c58c2b40fb4c",
@@ -1458,7 +1397,15 @@
                                 "$variable[1]$": "14",
                                 "$variable[2]$": "13"
                             },
-                            "id": "159e1c70-0d2a-4e42-a981-e45e7d90b9d8"
+                            "id": "5efd5668-fe28-4635-ae26-3a53558a071e"
+                        },
+                        {
+                            "command": "PT_EVENT_PLAYER_FIELD_STORE",
+                            "args": {
+                                "field": "grounded",
+                                "variable": "20"
+                            },
+                            "id": "55303957-eb1d-4732-b43a-15d2b20be37b"
                         }
                     ],
                     "hit1Script": [],
@@ -2644,7 +2591,15 @@
                                 "$variable[1]$": "14",
                                 "$variable[2]$": "13"
                             },
-                            "id": "25c05a52-15b2-4ee7-920d-ecb5c42267cf"
+                            "id": "5f908c11-0aef-43c5-9487-a4ba3767aa7c"
+                        },
+                        {
+                            "command": "PT_EVENT_PLAYER_FIELD_STORE",
+                            "args": {
+                                "field": "grounded",
+                                "variable": "20"
+                            },
+                            "id": "def3d37e-08e1-4927-b429-f9de32d94f2f"
                         }
                     ],
                     "hit1Script": [],
@@ -3893,7 +3848,15 @@
                                 "$variable[1]$": "14",
                                 "$variable[2]$": "13"
                             },
-                            "id": "1040ee80-1c30-42bc-9afd-7edc9d488b3b"
+                            "id": "3f2d1ba3-12e6-41de-a724-2c260658d1ce"
+                        },
+                        {
+                            "command": "PT_EVENT_PLAYER_FIELD_STORE",
+                            "args": {
+                                "field": "grounded",
+                                "variable": "20"
+                            },
+                            "id": "3f48d709-caf6-4447-943c-ab561c9339c5"
                         }
                     ],
                     "hit1Script": [],
@@ -4861,7 +4824,15 @@
                                 "$variable[1]$": "14",
                                 "$variable[2]$": "13"
                             },
-                            "id": "58e9bbd4-dc56-4e19-8b15-d3b301c3a0ff"
+                            "id": "af470ca1-c14f-4dc4-b39e-60d6e36edf68"
+                        },
+                        {
+                            "command": "PT_EVENT_PLAYER_FIELD_STORE",
+                            "args": {
+                                "field": "grounded",
+                                "variable": "20"
+                            },
+                            "id": "fa35c51c-c2c0-4c82-aae1-0cc57dbf2eb9"
                         }
                     ],
                     "hit1Script": [],
@@ -6376,7 +6347,15 @@
                                 "$variable[1]$": "14",
                                 "$variable[2]$": "13"
                             },
-                            "id": "43b257a9-51ed-4091-b82b-291d011763ad"
+                            "id": "99ca6fcd-fff9-471e-ac94-fdb74095f9ac"
+                        },
+                        {
+                            "command": "PT_EVENT_PLAYER_FIELD_STORE",
+                            "args": {
+                                "field": "grounded",
+                                "variable": "20"
+                            },
+                            "id": "7d93bb88-d49b-4b51-873e-cd3eaf37c509"
                         }
                     ],
                     "hit1Script": [],
@@ -7308,7 +7287,15 @@
                                 "$variable[1]$": "14",
                                 "$variable[2]$": "13"
                             },
-                            "id": "8ada1204-777a-49aa-be81-14e409b6b7e0"
+                            "id": "43bc9ae3-d18a-4479-b58f-4e5d7dfede09"
+                        },
+                        {
+                            "command": "PT_EVENT_PLAYER_FIELD_STORE",
+                            "args": {
+                                "field": "grounded",
+                                "variable": "20"
+                            },
+                            "id": "96a70fde-e623-4a1b-970a-656409fdb132"
                         }
                     ],
                     "hit1Script": [],
@@ -8300,7 +8287,15 @@
                                 "$variable[1]$": "14",
                                 "$variable[2]$": "13"
                             },
-                            "id": "0486642b-2c0f-43ab-b170-e802d01e42bb"
+                            "id": "e8888d98-2104-4ea8-9de3-37cdfd5dbf58"
+                        },
+                        {
+                            "command": "PT_EVENT_PLAYER_FIELD_STORE",
+                            "args": {
+                                "field": "grounded",
+                                "variable": "20"
+                            },
+                            "id": "03b2d57b-3a43-48be-9c3a-de6c5e29c357"
                         }
                     ],
                     "hit1Script": [],
@@ -9584,7 +9579,15 @@
                                 "$variable[1]$": "14",
                                 "$variable[2]$": "13"
                             },
-                            "id": "e4eea7a4-8157-4cab-9c04-e090087b95f8"
+                            "id": "f9e4b7a8-149e-4f55-9e29-358880816b4e"
+                        },
+                        {
+                            "command": "PT_EVENT_PLAYER_FIELD_STORE",
+                            "args": {
+                                "field": "grounded",
+                                "variable": "20"
+                            },
+                            "id": "32daeb04-3bee-415b-af7e-db80b55cfecf"
                         }
                     ],
                     "hit1Script": [],
@@ -15988,7 +15991,15 @@
                                 "$variable[1]$": "14",
                                 "$variable[2]$": "13"
                             },
-                            "id": "1e69fc7d-100b-44e2-ba62-701231460969"
+                            "id": "86803822-89c2-4026-b780-2ceea86025d2"
+                        },
+                        {
+                            "command": "PT_EVENT_PLAYER_FIELD_STORE",
+                            "args": {
+                                "field": "grounded",
+                                "variable": "20"
+                            },
+                            "id": "1e6042dd-a94b-45c5-854f-917fb1934ecf"
                         }
                     ],
                     "hit1Script": [],
@@ -17981,7 +17992,15 @@
                                 "$variable[1]$": "14",
                                 "$variable[2]$": "13"
                             },
-                            "id": "f416071b-2179-45ca-b151-7b6b527c3ee5"
+                            "id": "19a8323f-7680-40d3-93f1-a7b36e019c12"
+                        },
+                        {
+                            "command": "PT_EVENT_PLAYER_FIELD_STORE",
+                            "args": {
+                                "field": "grounded",
+                                "variable": "20"
+                            },
+                            "id": "1248c9cf-5f99-41a3-8426-e50c020b4a84"
                         }
                     ],
                     "hit1Script": [],
@@ -19335,7 +19354,15 @@
                                 "$variable[1]$": "14",
                                 "$variable[2]$": "13"
                             },
-                            "id": "6ab1176f-932e-495e-9826-b2a2a5d70394"
+                            "id": "3fd80865-aae4-4cb0-be32-a33c5b7d99de"
+                        },
+                        {
+                            "command": "PT_EVENT_PLAYER_FIELD_STORE",
+                            "args": {
+                                "field": "grounded",
+                                "variable": "20"
+                            },
+                            "id": "28c4cd5d-932d-44e0-870c-2d4cfd56c28a"
                         }
                     ],
                     "hit1Script": [],
@@ -22345,7 +22372,15 @@
                                 "$variable[1]$": "14",
                                 "$variable[2]$": "13"
                             },
-                            "id": "baeef338-46c4-45df-a640-aab50f4a23b5"
+                            "id": "e24dbdde-3f3f-48a0-bdda-98c3d9871a6e"
+                        },
+                        {
+                            "command": "PT_EVENT_PLAYER_FIELD_STORE",
+                            "args": {
+                                "field": "grounded",
+                                "variable": "20"
+                            },
+                            "id": "db812554-47b7-459e-8a4b-d1643ff567c2"
                         }
                     ],
                     "hit1Script": [],
@@ -24510,7 +24545,15 @@
                                 "$variable[1]$": "14",
                                 "$variable[2]$": "13"
                             },
-                            "id": "a6b3abe0-1a96-4f44-8716-eb5cad85da69"
+                            "id": "54234f21-6463-4c9e-9eae-b7cae0afef26"
+                        },
+                        {
+                            "command": "PT_EVENT_PLAYER_FIELD_STORE",
+                            "args": {
+                                "field": "grounded",
+                                "variable": "20"
+                            },
+                            "id": "3e0e4de0-b03e-4c3d-9fc3-3a73ff0f4084"
                         }
                     ],
                     "hit1Script": [],
@@ -25626,7 +25669,15 @@
                                 "$variable[1]$": "14",
                                 "$variable[2]$": "13"
                             },
-                            "id": "cbe2c112-0c97-4747-8573-fe2fd4331880"
+                            "id": "c9502afc-ea7e-4c5a-ac9b-6777e3513e84"
+                        },
+                        {
+                            "command": "PT_EVENT_PLAYER_FIELD_STORE",
+                            "args": {
+                                "field": "grounded",
+                                "variable": "20"
+                            },
+                            "id": "45ceecf2-81ed-4424-9ec6-d2dd54126758"
                         }
                     ],
                     "hit1Script": [],
@@ -29055,7 +29106,15 @@
                                 "$variable[1]$": "14",
                                 "$variable[2]$": "13"
                             },
-                            "id": "cf992537-bca9-440c-b16d-9a151883830e"
+                            "id": "c6c2c016-acf2-4ebd-8d6c-141f111c9003"
+                        },
+                        {
+                            "command": "PT_EVENT_PLAYER_FIELD_STORE",
+                            "args": {
+                                "field": "grounded",
+                                "variable": "20"
+                            },
+                            "id": "b6b3eec2-d418-4083-aeb7-a7196527447a"
                         }
                     ],
                     "hit1Script": [],
@@ -32735,10 +32794,6 @@
             "name": "holdOntoWall",
             "description": "",
             "variables": {
-                "0": {
-                    "id": "0",
-                    "name": "playerOnGround"
-                },
                 "1": {
                     "id": "1",
                     "name": "wallJumpRight"
@@ -32750,14 +32805,6 @@
             },
             "actors": {},
             "script": [
-                {
-                    "command": "PT_EVENT_PLAYER_FIELD_STORE",
-                    "args": {
-                        "field": "grounded",
-                        "variable": "0"
-                    },
-                    "id": "dac9951b-24f0-4f64-9bc3-723dc7b6b677"
-                },
                 {
                     "command": "EVENT_IF_TRUE",
                     "args": {
@@ -33292,8 +33339,8 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 294,
-        "worldScrollY": 352,
+        "worldScrollX": 134,
+        "worldScrollY": 0,
         "zoom": 159.99788150936365,
         "customColorsEnabled": true,
         "sgbEnabled": false,
