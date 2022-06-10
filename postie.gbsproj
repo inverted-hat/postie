@@ -10619,9 +10619,170 @@
                                 "customEventId": "f1272a59-ee89-4f09-ba7a-c58c2b40fb4c",
                                 "$variable[0]$": "20",
                                 "$variable[1]$": "14",
-                                "$variable[2]$": "13"
+                                "$variable[2]$": "13",
+                                "__comment": true
                             },
-                            "id": "eefa7c83-a780-464d-bc83-25d67f79bbb9"
+                            "id": "234d6b7c-bd0f-494b-abef-c3a9cbdce38c"
+                        },
+                        {
+                            "command": "PT_EVENT_PLAYER_FIELD_STORE",
+                            "args": {
+                                "field": "grounded",
+                                "variable": "20"
+                            },
+                            "id": "96ac962f-bd68-42f9-8dc6-4eea60f24f2b"
+                        },
+                        {
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "13",
+                                "__collapseElse": false,
+                                "__collapse": false
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_IF_INPUT",
+                                        "args": {
+                                            "input": [
+                                                "left",
+                                                "right"
+                                            ],
+                                            "__collapseElse": false
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_ACTOR_SET_DIRECTION",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "direction": {
+                                                            "type": "direction",
+                                                            "value": "right"
+                                                        }
+                                                    },
+                                                    "id": "254902d8-8896-42a7-9a13-8252484580e3"
+                                                },
+                                                {
+                                                    "command": "EVENT_ENGINE_FIELD_SET",
+                                                    "args": {
+                                                        "engineFieldKey": "plat_max_fall_vel",
+                                                        "value": {
+                                                            "value": 1000
+                                                        }
+                                                    },
+                                                    "id": "74caf4b1-0760-4017-b964-81bf9040083d"
+                                                },
+                                                {
+                                                    "command": "EVENT_ACTOR_SET_STATE",
+                                                    "args": {
+                                                        "actorId": "player",
+                                                        "spriteStateId": "wallJump"
+                                                    },
+                                                    "id": "c77a32cf-65c0-421d-bc6b-186ee04cd401"
+                                                }
+                                            ],
+                                            "false": [
+                                                {
+                                                    "command": "EVENT_ENGINE_FIELD_SET",
+                                                    "args": {
+                                                        "engineFieldKey": "plat_max_fall_vel"
+                                                    },
+                                                    "id": "b0460f87-1d52-4c8c-a8aa-156df71d893e"
+                                                },
+                                                {
+                                                    "command": "EVENT_ACTOR_SET_STATE",
+                                                    "args": {
+                                                        "actorId": "player",
+                                                        "spriteStateId": ""
+                                                    },
+                                                    "id": "00aa0a06-6f02-4bdd-b296-6a646005976d"
+                                                }
+                                            ]
+                                        },
+                                        "id": "00d52df3-19d7-42c5-9afc-615bc8da5605"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "command": "EVENT_IF_TRUE",
+                                        "args": {
+                                            "variable": "14",
+                                            "__collapseElse": true,
+                                            "__comment": false,
+                                            "__disableElse": true
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_IF_INPUT",
+                                                    "args": {
+                                                        "input": [
+                                                            "left",
+                                                            "right"
+                                                        ],
+                                                        "__collapseElse": false
+                                                    },
+                                                    "children": {
+                                                        "true": [
+                                                            {
+                                                                "command": "EVENT_ACTOR_SET_DIRECTION",
+                                                                "args": {
+                                                                    "actorId": "$self$",
+                                                                    "direction": {
+                                                                        "type": "direction",
+                                                                        "value": "left"
+                                                                    }
+                                                                },
+                                                                "id": "2ee2aabf-1f24-48c5-888e-5b3acdf465e5"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_ENGINE_FIELD_SET",
+                                                                "args": {
+                                                                    "engineFieldKey": "plat_max_fall_vel",
+                                                                    "value": {
+                                                                        "value": 1000
+                                                                    }
+                                                                },
+                                                                "id": "8f6053e0-c347-45fb-afa3-fa9e8f694d0d"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_ACTOR_SET_STATE",
+                                                                "args": {
+                                                                    "actorId": "player",
+                                                                    "spriteStateId": "wallJump"
+                                                                },
+                                                                "id": "91b0f003-09c9-4ced-bd2d-5bf3f98667ff"
+                                                            }
+                                                        ],
+                                                        "false": [
+                                                            {
+                                                                "command": "EVENT_ENGINE_FIELD_SET",
+                                                                "args": {
+                                                                    "engineFieldKey": "plat_max_fall_vel"
+                                                                },
+                                                                "id": "9915bde9-6c15-4520-8dd1-5ccbf75bc20b"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_ACTOR_SET_STATE",
+                                                                "args": {
+                                                                    "actorId": "player",
+                                                                    "spriteStateId": ""
+                                                                },
+                                                                "id": "9726bfd7-5e18-4a92-9fd1-5104229cb3f8"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "id": "e9407019-1eea-4a7f-8e71-710e3bdbe052"
+                                                }
+                                            ],
+                                            "false": []
+                                        },
+                                        "id": "c05c8ca7-9106-4751-a3ae-b7304766fc76"
+                                    }
+                                ]
+                            },
+                            "id": "1656d637-b4fc-4411-80b3-44179ae492e6"
                         }
                     ],
                     "hit1Script": [],
@@ -33131,8 +33292,8 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 890,
-        "worldScrollY": 830,
+        "worldScrollX": 294,
+        "worldScrollY": 352,
         "zoom": 159.99788150936365,
         "customColorsEnabled": true,
         "sgbEnabled": false,
